@@ -7,5 +7,11 @@ requires-python = ">=3.12"
 dependencies = [
     "openai~=1.102",
     "jupyterlab~=4.4",
-    "pytest~=8.4"
+    "pytest~=8.4",
+    "azure-core~=1.35",
+    "azure-search-documents~=11.5",
+    "dotenv",
+    "autogen~=0.9.9",
+    "websockets~=15.0",
+    "aiohttp~=13.12"
 ]
